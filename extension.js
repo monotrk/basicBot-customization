@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "monotrk";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "itiBot",
       language: "english",
       chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
       scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
@@ -58,13 +58,13 @@
       autoskip: false,
       smartSkip: true,
       cmdDeletion: true,
-      maximumAfk: 120,
+      maximumAfk: 600,
       afkRemoval: true,
       maximumDc: 60,
       bouncerPlus: true,
       blacklistEnabled: true,
       lockdownEnabled: false,
-      lockGuard: false,
+      lockGuard: true,
       maximumLocktime: 10,
       cycleGuard: true,
       maximumCycletime: 10,
