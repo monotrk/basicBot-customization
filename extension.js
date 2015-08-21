@@ -25,8 +25,8 @@
         }
 
         // Example code for a bot command:
-        bot.commands.baconCommand = {
-            command: 'bacon',  // The command to be called. With the standard command literal this would be: !bacon
+        /*bot.commands.baconCommand = {
+            command: 'curtheme',  // The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', // Minimum user permission to use the command
             type: 'exact', // Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
               functionality: function (chat, cmd) {
@@ -36,7 +36,7 @@
                   API.sendChat("/me Bacon!!!");
                 }
               }
-            };
+            };*/
 
         // Load the chat package again to account for any changes
         bot.loadChat();
@@ -70,7 +70,7 @@
       maximumCycletime: 10,
       voteSkip: false,
       voteSkipLimit: 10,
-      historySkip: false,
+      historySkip: true,
       timeGuard: true,
       maximumSongLength: 10,
       autodisable: true,
